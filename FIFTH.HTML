@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AUTOMATED CV MAKER</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js" integrity="sha512-gYUM+7JjtBqPPGOgwgOZ+NwjGl+11/EP124oB+ihjlBpLgP5LTh7R/Iwcdy//cgH+QzrjspBiJI5iUegTNww3w==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js" integrity="sha512-vv3EN6dNaQeEWDcxrKPFYSFba/kgm//IUnvLPMPadaUf5+ylZyx4cKxuc4HdBf0PPAlM7560DV63ZcolRJFPqA==" crossorigin="anonymous"></script>	
+	
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo"><a href="https://www.google.com/" target="_blank"><img src="test_4.png"></a></div>
+			<div class="menu">
+				<a href="index.html" class="fas fa-home">HOME</a>
+				<a href="index.html" target="_self" class="fas fa-address-card">ABOUT</a>
+				<a href="index.html" target="_self" class="fas fa-address-book">CONTACT US</a>	
+				
+			</div>
+		</nav>
+		<div class="wrapper">
+
+	
+		<div class="menu_6">
+			<h2 class="p"><u>process</u></h2>
+			<br>
+				<ol><a href="second.html" class="disabled" target="_self">PERSONAL&nbsp;DATA</a>	</ol>
+				<br>
+				<br>
+				
+				
+				<ol><a href="third.html" class="disabled" target="_self">Professional Summary</a></ol>
+				<br>
+				<br>
+				
+				
+				<ol><a href="forth.html" class="disabled" target="_self">WORK&nbsp;EXPERIENCE</a></ol>
+				<br>
+				<br>
+				
+				
+
+				<ol><a href="" class="active">EDUCATION</a>	</ol>
+				<br>
+				<br>
+				
+				
+				<ol><a href="SIX.HTML" class="disabled" target="_self">SKILLS</a></ol>
+				<br>
+				<br>
+				
+				
+				<ol><a href="SEVEN.HTML" class="disabled" target="_self">INTEREST&nbsp;AND&nbsp;HOBBIES</a></ol>
+		</div>
+		</div>			
+		<br>
+		<div class="form_3">
+
+		    <h2>-EDUCATION-</h2>
+		    <form action="SIX.HTML" onsubmit="setEducation()">
+			<div class="form_2">
+		    <br>
+		    
+		    
+		    <div>
+			    <label>&nbsp;Name of institution/College</label>			    			  
+			    <input type="text" name="collegeName" placeholder="Name of institution" max="50" required>
+		    </div>
+		    <br>
+		   
+		    
+
+		    <div>
+			    <label>&nbsp;degree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			    <input type="text" name="degree" placeholder="degree" max="20" required>
+		    </div>
+		    <br>
+		   
+		    
+		    
+		    <div>
+			    <label>&nbsp;passing year(Format:20XX)&nbsp;&nbsp;</label>
+			    <input type="number" name="passingYearCollege" placeholder="Passing year" required>
+		    </div>
+		    <br>
+		    <div>
+			    <label>&nbsp;Marks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			    <input type="number" name="marksCollege" placeholder="marks" required>
+		    </div>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+
+		    <div>
+			    <label>&nbsp;Name of jr. College</label>			    			    
+			    <input type="text" name="juniorCollegeName" placeholder="junior college" max="50" required>
+		    </div>
+		    <br>
+		   
+		    
+
+		    <div>
+			    <label>&nbsp;Field&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			    <input type="text" name="field" placeholder="field" max="20" required>
+		    </div>
+		    <br>
+		   
+		    
+		    
+		    <div>
+			    <label>&nbsp;passing year(Format:20XX)&nbsp;&nbsp;</label>
+			    <input type="number" name="passingYearJrCollege" placeholder="Passing year" required>
+		    </div>
+		    <br>
+		    <div>
+			    <label>&nbsp;Marks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			    <input type="number" name="marksJrCollege" placeholder="marks" required>
+		    </div>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <div>
+			    <label>&nbsp;Name of School</label>
+				<input type="text" name="schoolName" placeholder="Name of school" max="50" required>
+		    </div>
+		    <br>
+		   
+		    
+
+		    <div>
+			    <label>&nbsp;BOARD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			    <input type="text" name="board" placeholder="board" max="20" required>
+		    </div>
+		    <br>
+		   
+		    
+		    
+		    <div>
+			    <label>&nbsp;passing year(Format:20XX)&nbsp;&nbsp;</label>
+			    <input type="number" name="passingYearSchool" placeholder="Passing year" required>
+		    </div>
+		    <br>
+		    <div>
+			    <label>&nbsp;Marks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			    <input type="text" name="marksSchool" placeholder="marks" required>
+		    </div>
+		    <br>
+		    
+
+		    
+		    <input class="button" type="submit" value="Next">
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    </form>
+		    <br>
+		     <br>
+		     <br>
+		     <br>
+		     <br>
+		    
+		     
+		</div>
+		<br>
+		<br>    
+		   
+		     <br><br>
+		     <br>
+</body>
+</head>
+</html>
